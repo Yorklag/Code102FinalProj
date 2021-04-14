@@ -78,7 +78,7 @@ body {
 	display: inline-block;
 	margin: 0 100px;
 }
-.primary-header a {
+.inactive a {
 	color: red;
 	font-size:20px;
 }
