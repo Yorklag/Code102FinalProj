@@ -61,6 +61,7 @@ body {
   ============================
 */
 .primary-header {
+	margin:auto;
 	text-align: center;
 	background: #5470ff;
 }
@@ -69,12 +70,23 @@ body {
 	padding: 20px;
 	border: 5px;
 }
+.primary-header ul {
+	text-align:center;
+}
 .primary-header li {
+	padding:20px 20px;
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 100px;
 }
 .primary-header a {
-	color: yellow;
+	color: red;
+	font-size:20px;
+}
+.inactive li {
+	background-color:blue;
+}
+#active {
+	background-color:yellow;
 }
 /*
   ============================
@@ -93,32 +105,4 @@ body {
 .main-body p {
 	text-align: center;
 	font-size: 18px;
-}
-
-/*
-  ============================
-  tables
-  ============================
-*/
-#t01 table, th, td{
-	border: 1px solid Black;
-	padding: 2px;
-}
-#t01 {
-	width: 100%;
-}
-#t01 th:nth-child(1){
-	width:15%;
-}
-#t01 th:nth-child(2){
-	width:65%;
-}
-#t01 th:nth-child(3){
-	width:20%;
-}
-#t01 tr:nth-child(even){
-	background-color: #eee;
-}
-#t01 tr:nth-child(odd){
-	background-color: #fff;
 }
