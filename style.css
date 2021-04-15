@@ -53,8 +53,27 @@ table {
   ============================
 */
 body {
-	font: 300 16px/22px Ariel, sans-serif;
+	font: 300 16px/22px "Times New Roman", Ariel, sans-serif;
 }
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
 /*
   ============================
   primary-header
@@ -64,6 +83,7 @@ body {
 	margin:auto;
 	text-align: center;
 	background: #5470ff;
+	margin-bottom: 10px;
 }
 .primary-header h1 {
 	font-size: 48px;
@@ -87,6 +107,13 @@ body {
 }
 #active {
 	background-color:yellow;
+}
+.search {
+	float: left;
+	width:0;
+	height:0;
+	overflow:visible;
+	white-space:nowrap;
 }
 /*
   ============================
