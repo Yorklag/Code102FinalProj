@@ -54,6 +54,7 @@ table {
 */
 body {
 	font: 300 16px/22px "Times New Roman", Ariel, sans-serif;
+    background: lightgray;
 }
 /*
   ========================================
@@ -82,7 +83,7 @@ body {
 .primary-header {
 	margin:auto;
 	text-align: center;
-	background: #5470ff;
+	background: #19c2c2;
 	margin-bottom: 10px;
 }
 .primary-header h1 {
@@ -94,6 +95,7 @@ body {
 	text-align:center;
 }
 .primary-header li {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding:20px 20px;
 	display: inline-block;
 	margin: 0 100px;
@@ -105,6 +107,10 @@ body {
 .inactive li {
 	background-color:blue;
 }
+
+.inactive li:hover {
+    background-color: yellow;
+}
 #active {
 	background-color:yellow;
 }
@@ -114,6 +120,13 @@ body {
 	height:0;
 	overflow:visible;
 	white-space:nowrap;
+}
+
+.divider{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid black;
 }
 /*
   ============================
@@ -194,31 +207,5 @@ body {
 	width:60%;
 	margin:auto;
 	
-}
-/*
-  =============================
-  highlighted article.
-  =============================
-*/
-.banner{
-	margin:0;
-}
-.banner p {
-	text-align:left;
-	padding-left:5%;
-}
-.highlight {
-	border: solid 1px;
-    height: 40%;
-	text-overflow:ellipsis;
-    overflow: hidden;
-}
-.highlight img {
-	float:left;
-	width:40%;
-	padding:5px;
-}
-.highlight p {
-	margin:auto;
 }
 
