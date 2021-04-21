@@ -200,6 +200,13 @@ body {
   highlighted article.
   =============================
 */
+.banner{
+	margin:0;
+}
+.banner p {
+	text-align:left;
+	padding-left:5%;
+}
 .highlight {
 	border: solid 1px;
     height: 40%;
