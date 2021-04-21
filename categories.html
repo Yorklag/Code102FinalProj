@@ -10,17 +10,24 @@
       * {
         box-sizing: border-box;
       }
+      
+      ul {
+        list-style: disc;
+      }
 
       /* Float three columns side by side */
       .column {
         float: left;
         width: 33.33%;
         padding: 0 10px;
+        text-align: center;
+        font-size: 25px;
       }
 
       /* Remove extra left and right margins, due to padding */
       .row {
         margin: 0 -5px;
+        padding-bottom: 60px;
       }
 
       /* Clear floats after the columns */
@@ -38,15 +45,25 @@
             margin-bottom: 20px;
         }
       }
+      
+      .category {
+          padding-top: 60px;
+          padding-bottom: 10px;
+          text-decoration: underline;
+      }
+      
+      .article {
+          padding-bottom: 10px;
+      }
 
-      /* Style the counter cards */
+      /* Style the counter cards 
       .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         padding: 10px;
         margin-top: 15px;
         text-align: center;
         background-color: #f1f1f1;
-      }
+      } */
   </style>    
 </head>
     
@@ -69,38 +86,39 @@
     <div class="row1">
         <div class="column">
             <div class="card">
-                <h3>Business</h3>
-                <p>Some text</p>
-                <p>Some text</p>
+                <h3 class="category">Business</h3>
+                <p class="article">malesuada pellentesque elit eget gravida</p>
+                <p class="article">malesuada pellentesque elit eget gravida</p>
             </div>
             <div class="card">
-                <h3>Science</h3>
-                <p>Some text</p>
-                <p>Some text</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <h3>Economy</h3>
-                <p>Some text</p>
-                <p>Some text</p>
-            </div>
-            <div class="card">
-                <h3>United States</h3>
-                <p>Some text</p>
-                <p>Some text</p>
+                <h3 class="category">Science</h3>
+                
+                <p class="article">Some text</p>
+                <p class="article">Some text</p>
             </div>
         </div>
         <div class="column">
             <div class="card">
-                <h3>Politics</h3>
-                <p>Some text</p>
-                <p>Some text</p>
+                <h3 class="category">Economy</h3>
+                <p class="article">Some text</p>
+                <p class="article">Some text</p>
             </div>
             <div class="card">
-                <h3>World</h3>
-                <p>Some text</p>
-                <p>Some text</p>
+                <h3 class="category">United States</h3>
+                <p class="article">Some text</p>
+                <p class="article">Some text</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h3 class="category">Politics</h3>
+                <p class="article">Some text</p>
+                <p class="article">Some text</p>
+            </div>
+            <div class="card">
+                <h3 class="category">World</h3>
+                <p class="article">Some text</p>
+                <p class="article">Some text</p>
             </div>
         </div>
     </div>
