@@ -179,3 +179,17 @@ body {
 .article {
     padding-bottom: 10px;
 }
+/*
+  ============================
+  cards
+  ============================
+*/
+.line:after {
+	clear: both;
+}
+.card img {
+	float: left;
+	width: 20%;
+	padding: 5px;
+}
+
