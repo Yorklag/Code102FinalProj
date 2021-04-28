@@ -256,6 +256,9 @@ body {
   Relevant Article
   ============================
 */
+.relevant {
+	padding-bottom:20px;
+}
 .relevant img {
 	width: 100%;
 	padding: 5px;
