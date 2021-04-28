@@ -60,7 +60,10 @@ table {
 * {
 	box-sizing: border-box;
 }
-
+a {
+	text-decoration:none;
+	color:black;
+}
 
 
 body {
@@ -283,7 +286,7 @@ body {
 .source-card {
     /* Add shadows to create the "card" effect */
     padding: 5px;
-    margin: 10px;
+	margin: 10px;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
